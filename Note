@@ -1,0 +1,11 @@
+dotnet --list-sdks
+dotnet new globaljson
+{
+  "sdk": {
+    "version": "2.2.101"
+  }
+}
+
+change to the version you want to work with
+dotnet --version    to verify
+dotnet new     for the project
